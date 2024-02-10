@@ -1,9 +1,9 @@
-def celsius_to_fahrenheit(celsius):
-    return celsius * 9/5 + 32
+# Accept input for temperature in Celsius
+celsius = float(input("Enter temperature in Celsius: "))
 
-# Boiling point and freezing point of water in Fahrenheit
-boiling_point_f = celsius_to_fahrenheit(100)
-freezing_point_f = celsius_to_fahrenheit(0)
+# Convert Celsius to Fahrenheit
+fahrenheit = celsius * 9/5 + 32
 
-print("Boiling point of water in Fahrenheit:", boiling_point_f)
-print("Freezing point of water in Fahrenheit:", freezing_point_f)
+# Output the results
+print("Boiling point of water in Fahrenheit:", fahrenheit + 100)
+print("Freezing point of water in Fahrenheit:", fahrenheit)

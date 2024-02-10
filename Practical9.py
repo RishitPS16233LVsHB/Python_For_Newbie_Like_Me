@@ -1,12 +1,13 @@
-import math
-
-def sphere_volume(radius):
-    return (4/3) * math.pi * radius**3
-
-# Radius values
-radii = [7, 12, 16]
-
 # Calculate and print volume for each radius
-for radius in radii:
-    volume = sphere_volume(radius)
-    print(f"The volume of a sphere with radius {radius} cm is {volume:.2f} cubic cm.")
+radius1 = 7
+volume1 = (4/3) * 3.14 * radius1**3
+print(f"The volume of a sphere with radius {radius1} cm is {volume1:.2f} cubic cm.")
+
+radius2 = 12
+volume2 = (4/3) * 3.14 * radius2**3
+print(f"The volume of a sphere with radius {radius2} cm is {volume2:.2f} cubic cm.")
+
+radius3 = 16
+volume3 = (4/3) * 3.14 * radius3**3
+print(f"The volume of a sphere with radius {radius3} cm is {volume3:.2f} cubic cm.")
+
