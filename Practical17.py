@@ -1,3 +1,6 @@
 n = int(input("Enter the value of n: "))
-sequence = [(-1)**(i+1) * 5 * i for i in range(1, n+1)]
-print("Sequence:", sequence)
+multiplier = -1
+for i in range(1,n+1):
+    print(str((i * 5 * multiplier)) + " ")
+    multiplier *= -1
+
