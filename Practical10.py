@@ -1,10 +1,4 @@
-import datetime as dt
-
 name = input("What is your name? ")
-age = int(input("What is your age? "))
+year= int(input("What is your year_of_birth? "))
 
-if age >= 100:
-    print("You are already 100!")
-else:
-    hundred_year = dt.date.today().year + (100 - age)
-    print(name + " will turn 100 in year:", hundred_year)
+print(name + " will turn 100 in year:"+str(year+100))
