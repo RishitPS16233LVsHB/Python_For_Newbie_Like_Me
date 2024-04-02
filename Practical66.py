@@ -4,6 +4,6 @@ def insert_string_in_middle(main_string, insert_string):
 
 # Example usage
 main_string = "Hello, Sir!"
-insert_string = " Handsome"
+insert_string = " Hi!"
 result = insert_string_in_middle(main_string, insert_string)
 print(result)
